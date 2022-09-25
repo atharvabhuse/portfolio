@@ -1,0 +1,22 @@
+.floatingspan{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    box-shadow: 0 7px 30px rgb(0 0 0 / 38%);
+    border-radius: 17px;
+    border: 3px solid white;
+    width: 10rem;
+    padding: 1rem;
+
+}
+
+.floatingspan >:nth-child(1){
+   width: 45px;
+   height: 45px;
+   margin-top: 0.1rem;
+}
+.floatingspan >:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}

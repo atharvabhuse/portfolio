@@ -1,0 +1,90 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    align-items: center;
+}
+.contact-left{
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+}
+.contact-left >:nth-child(1){
+    font-size: 2rem;
+    color: var(--customorange);
+    text-align: left;
+    padding-left: 15rem;
+    padding-top: 3rem;
+
+
+
+}
+.contact-left >:nth-child(2){
+    padding-left: 18rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-align: left;
+}
+.contact-left >:nth-child(3){
+    padding-left: 18rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+.contact-left >:nth-child(5){
+    display: flex;
+    flex-direction: row;
+    padding-left: 18rem;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+.contact-left >:nth-child(6){
+    display: flex;
+    flex-direction: row;
+    padding-left: 18rem;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+
+}
+.contact-left >:nth-child(7){
+    display: flex;
+    flex-direction: row;
+    padding-left: 18rem;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+.contact-left >:nth-child(8){
+    display: flex;
+    flex-direction: row;
+    padding-left: 18rem;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.contact-right{
+    display: flex;
+    flex: 1;
+}
+.github-contact{
+    padding-right: 1rem;
+    width: 1.3rem;
+     height: 1.3rem;
+ }
+ .linkedin-contact{
+     padding-right: 1rem;
+     width: 1.3rem;
+     height: 1.3rem;
+  }
+  .contact-span-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-span-2{
+    display: flex;
+    text-align: left;
+  }

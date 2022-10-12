@@ -84,3 +84,8 @@
     flex-direction: row;
     color: inherit;
 }
+@media screen and (max-width:480px) {
+    .certificatecard{
+        width: 100%;
+    }
+}

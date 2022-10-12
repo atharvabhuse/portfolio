@@ -88,3 +88,30 @@
     padding-bottom: 2rem;
     /* color: #cdcdcd; */
 }
+@media screen and (max-width:480px) {
+    .experience-timeline-left{
+        padding-left: 0rem;
+    }
+    .experience-timeline-left>:nth-child(2){
+        padding-left: 0rem;
+    }
+    .experience-timeline-left>:nth-child(2) li{
+        padding-bottom: 1rem;
+    
+    }
+    .experience-timeline-right{
+        display: none;
+    }
+    .company-heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-p{
+        margin: 0;
+        padding: 0;
+    }
+   .heading{
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+}
+}

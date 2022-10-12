@@ -31,8 +31,8 @@ const Experience = () => {
     { value: 'MS Powerpoint', count: 20 },
     { value: 'Trading', count: 20 },
   ]
-  const theme=useContext(themeContext)
-  const darkMode=theme.state.darkMode
+  const theme = useContext(themeContext)
+  const darkMode = theme.state.darkMode
 
 
   // const customRenderer=(tag, size,color)=>{
@@ -93,31 +93,31 @@ const Experience = () => {
     //   </span>
     // </div>
     <>
-    <motion.div id='Experience' initial={{left: '-25%'}} whileInView={{left: '0%'}} transition={{duration: '2',type: 'spring'}}><p className='heading'>Where I've Worked</p></motion.div>
-    <div className='experience-timeline'>
-      <div className='experience-timeline-left'>
-        <div>
-          <div style={{borderBottom: '2px solid #FCA61F',width: '2rem'}}>&nbsp;</div>
-          <div></div>
-        </div>
-        <div style={{color: darkMode?'#cdcdcd':'black'}}>
-          <ul>
-          <div className='company-heading' ><p>Polyglots Software LLP&nbsp;|&nbsp;</p><p style={{color: '#FCA61F'}}>UI Developer</p></div>
-          <div className='company-date' ><p>March 2022 - Present</p></div>
+      <motion.div id='Experience' initial={{ left: '-25%' }} whileInView={{ left: '0%' }} transition={{ duration: '2', type: 'spring' }}><p className='heading'>Where I've Worked</p></motion.div>
+      <div className='experience-timeline'>
+        <div className='experience-timeline-left'>
+          <div>
+            <div style={{ borderBottom: '2px solid #FCA61F', width: '2rem' }}>&nbsp;</div>
+            <div></div>
+          </div>
+          <div style={{ color: darkMode ? '#cdcdcd' : 'black' }}>
+            <ul>
+              <div className='company-heading' ><p className='experience-p'>Polyglots Software LLP&nbsp;|&nbsp;</p><p style={{ color: '#FCA61F' }} className='experience-p'>UI Developer</p></div>
+              <div className='company-date' ><p>March 2022 - Present</p></div>
 
 
-          <li><span>Convert web deign into websites using ReactJs, Javascript, HTML, CSS(Flexbox/ Tailwind), Bootstrap with 100% accuracy and maintaining the code using GitHub.</span></li>
-          <li><span>Worked on in-house Admin software based on React.js with REST API consumption using tools like Webpack, Axios, React Query etc.</span></li>
-          <li><span>Collaborated with Product team for detail Design flows, Wireframes, Prototype and making trending UI/UX experience using Figma.</span></li>
-          <li><span>Troubleshooting application for its better online presence. Optimized websites for higher Google page speedscores for better Search engine ranking and faster loading.</span></li>
-          <li><span>Testing and Debiugging source code for better optimazation. Tested code in various browsers and devices to ensure cross-browser compatibility and responsive behaviour.</span></li>
-          <li><span>Documenting the work done to client and support team for organisation</span></li>
-          </ul>
+              <li><span>Convert web deign into websites using ReactJs, Javascript, HTML, CSS(Flexbox/ Tailwind), Bootstrap with 100% accuracy and maintaining the code using GitHub.</span></li>
+              <li><span>Worked on in-house Admin software based on React.js with REST API consumption using tools like Webpack, Axios, React Query etc.</span></li>
+              <li><span>Collaborated with Product team for detail Design flows, Wireframes, Prototype and making trending UI/UX experience using Figma.</span></li>
+              <li><span>Troubleshooting application for its better online presence. Optimized websites for higher Google page speedscores for better Search engine ranking and faster loading.</span></li>
+              <li><span>Testing and Debiugging source code for better optimazation. Tested code in various browsers and devices to ensure cross-browser compatibility and responsive behaviour.</span></li>
+              <li><span>Documenting the work done to client and support team for organisation</span></li>
+            </ul>
+          </div>
         </div>
+        <div className='experience-timeline-right'></div>
       </div>
-      <div className='experience-timeline-right'></div>
-      </div>
-      </>
+    </>
   )
 }
 

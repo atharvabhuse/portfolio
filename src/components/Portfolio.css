@@ -149,3 +149,13 @@
    padding-bottom: 2rem;
    
 }
+@media screen and (max-width:480px) {
+    .portfolio-heading{
+        padding-left: 0rem;
+    }
+    .grid-row{
+        padding-left: 0rem;
+        transform: scaleX(0.45);
+        margin-left: -8rem;
+    }
+}

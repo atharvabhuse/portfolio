@@ -20,7 +20,7 @@ const PortfolioCard = (props) => {
   
   return (
     <div className='portfoliocard'>
-      <img src={props.image} />
+      <img className='portfoliocard-img' src={props.image} />
       <div className='portfoliocard-content'>
 
         <div className='portfoliocard-heading'>{props.heading}</div>

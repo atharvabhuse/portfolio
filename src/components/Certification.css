@@ -66,3 +66,10 @@
     flex-direction: row;
     color: inherit;
 }
+@media screen and (max-width:480px) {
+    .certification-row{
+    flex-direction: column;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    }
+}

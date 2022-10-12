@@ -60,4 +60,18 @@
     .services-left >:nth-child(1){
         padding-bottom: 1rem;
     }
+    .services-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-right>*{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+
+    }
 }

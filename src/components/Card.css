@@ -17,3 +17,8 @@
 .card >:nth-child(3){
     margin-top: 0rem;
 }
+@media screen and (max-width:480px) {
+    .card{
+        width: 20rem;
+    }
+}

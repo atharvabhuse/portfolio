@@ -54,3 +54,9 @@
     cursor: pointer;
     color: var(--customorange);
 }
+
+@media screen and (max-width:480px) {
+    .navbar-ul-2{
+        display: none;
+    }
+}

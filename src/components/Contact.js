@@ -26,13 +26,13 @@ const Contact = () => {
         </div>
 
         <div>
-          <div className='contact-div'>
+          {/* <div className='contact-div'>
             <span className='contact-span-1'><FontAwesomeIcon icon={faPhone} style={{ color: '#FCA61F', fontSize: '20px', paddingRight: '1rem' }} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span className='contact-span-2'>Phone</span>
               <span><a href='tel:7588509301' style={{ textDecoration: 'none', color: '#0068CC' }}>+91 75888509301</a></span>
             </div>
-          </div>
+          </div> */}
           <div className='contact-div'>
             <span className='contact-span-1'><FontAwesomeIcon icon={faAt} style={{ color: '#FCA61F', fontSize: '20px', paddingRight: '1rem' }} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -40,9 +40,6 @@ const Contact = () => {
               <span><a href='mailto:atharvabhuse1@gmail.com' style={{ textDecoration: 'none', color: '#0068CC' }}>atharvabhuse1@gmail.com</a></span>
             </div>
           </div>
-        </div>
-
-        <div>
           <div className='contact-div'>
             <span className='contact-span-1'><img className='linkedin-contact' src={linkedin} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -50,6 +47,16 @@ const Contact = () => {
               <span><a href='https://www.linkedin.com/in/atharva-bhuse/' style={{ textDecoration: 'none', color: '#0068CC' }}>View LinkedIn Profile</a></span>
             </div>
           </div>
+        </div>
+
+        <div>
+          {/* <div className='contact-div'>
+            <span className='contact-span-1'><img className='linkedin-contact' src={linkedin} /></span>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <span className='contact-span-2'>LinkedIn Profile</span>
+              <span><a href='https://www.linkedin.com/in/atharva-bhuse/' style={{ textDecoration: 'none', color: '#0068CC' }}>View LinkedIn Profile</a></span>
+            </div>
+          </div> */}
           <div className='contact-div'>
             <span className='contact-span-1'><img className='github-contact' src={github} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -59,7 +66,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className='contact-div'>
             <span className='contact-span-1'><img className='linkedin-contact' src={whatsapp} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -70,7 +77,7 @@ const Contact = () => {
           <div className='contact-div'>
 
           </div>
-        </div>
+        </div> */}
 
 
       </div>

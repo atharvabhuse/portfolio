@@ -54,6 +54,11 @@ body::-webkit-scrollbar-track{
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width:480px) {
+  .App{
+    padding: 0.5rem 0.5rem;
+  }
+}
 :root{
   --customyellow: #F5C32C;
   --customorange: #FCA61F;

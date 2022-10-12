@@ -1,4 +1,4 @@
-.certificatecard {
+.portfoliocard {
     display: flex;
     flex-direction: row;
     background-color: transparent;
@@ -6,29 +6,37 @@
     border-radius: 1rem;
     /* box-shadow: 5px 10px 30px rgb(0 0 0 / 42%); */
 }
+.certificatecard{
+    width: 33%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .certificatecard-image{
-    width: 20%;
-    border: 2px solid transparent;
-    border-radius: 1rem;
-    padding: 0.3rem;
+    display: flex;
+    width: 95%;
+    justify-content: center;
 }
 .image{
-    width: 90%;
-    height: 14rem;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 20rem;
+    margin-top: 0.5rem;
 }
- /* img{
+.portfoliocard img{
     width: 30rem;
     height: 15rem;
     border: 2px solid transparent;
     border-radius: 1rem;
     padding: 0.3rem;
-} */
-.portfoliocard-heading{
+}
+.certificatecard-heading{
     font-size: 1.3rem;
-    padding-top: 0.5rem;
     text-align: left;
-    padding: 1rem;
     color: #FCA61F
 
 }
@@ -37,10 +45,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.certificatecard-content{
+.portfoliocard-content{
     display: flex;
     flex-direction: column;
-    width: 80%;
 }
 .buttons img{
     width: 18px;
@@ -53,12 +60,11 @@
     cursor: pointer;
 
 }
-.buttons{ 
+.certificatecard-buttons{ 
     display: flex;
     flex-direction: row;
-    padding-left: 1rem;
 }
-.buttons p{
+.certificatecard-buttons p{
     display: flex;
     margin-top: 0px;
     padding-left: 0.5rem;
@@ -67,6 +73,12 @@
     cursor: pointer;
 }
 .buttons a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: inherit;
+}
+.certificatecard-a{
     text-decoration: none;
     display: flex;
     flex-direction: row;

@@ -27,6 +27,7 @@ const NavBar = () => {
           <li><Link spy={true} to='About' smooth={true}>About</Link></li>
           <li><Link spy={true} to='Experience' smooth={true}>Experience</Link></li>
           <li><Link spy={true} to='Portfolio' smooth={true}>Portfolio</Link></li>
+          <li><Link spy={true} to='Certification' smooth={true}>Certification</Link></li>
           <li><Link spy={true} to='Contact' smooth={true}>Contact</Link></li>
           <li><a href={Resume} download><button className='navbar-button'>Resume</button></a></li>
          </ul>

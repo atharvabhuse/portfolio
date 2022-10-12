@@ -9,6 +9,7 @@ import {themeContext} from './Context'
 import { useContext } from 'react';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Certification from './components/Certification';
 function App() {
   const theme=useContext(themeContext)
   const darkMode=theme.state.darkMode
@@ -19,6 +20,7 @@ function App() {
       <Services />
       <Experience />
       <Portfolio />
+      <Certification />
       <Contact />
       <Footer />
     </div>

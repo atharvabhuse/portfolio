@@ -45,6 +45,12 @@ import MobileApp9 from '../images/project images and video/wordpressMobileApp/mo
 import MobileApp10 from '../images/project images and video/wordpressMobileApp/mobileapp10.png'
 import MobileApp11 from '../images/project images and video/wordpressMobileApp/mobileapp11.png'
 
+import FullstackApp from '../images/fullstack5.png'
+import FullstackApp1 from '../images/fullstack1.png'
+import FullstackApp2 from '../images/fullstack2.png'
+import FullstackApp3 from '../images/fullstack3.png'
+import FullstackApp4 from '../images/fullstack4.png'
+
 const Portfolio = () => {
 
   const foodref = useRef()
@@ -62,7 +68,11 @@ const Portfolio = () => {
 
   const clickHandler = (data) => {
     setPopup(true)
-    if (data=='Food App') {
+    if (data=='Project Administration(Full stack app)') {
+      let imgvar=[{url: FullstackApp1},{url: FullstackApp2},{url: FullstackApp3},{url: FullstackApp4}]
+      setImage(imgvar)
+
+    } else if (data=='Food App') {
       let imgvar=[{url: FoodApp1},{url: FoodApp2}]
       setImage(imgvar)
 
@@ -83,7 +93,6 @@ const Portfolio = () => {
     if (data=='Food App') {
       let videovar=[]
       setVideo(videovar)
-      
     }
   }
 
@@ -94,6 +103,9 @@ const Portfolio = () => {
   return (
     <div className='portfolio' id='Portfolio'>
       <div className='portfolio-heading'>Something I've build</div>
+      <div className='grid-row' ref={foodref} >
+        <PortfolioCard image={FullstackApp} heading={"Project Administration(Full stack app)"} desc1={"Implemented a MERNG stack project administration app, where administrator can add clients and there respective projects. All the data is stored in Mongo Atlas cloud and used graphql for queries."} desc2={"Technologies used- React, JavaScript, Node Js, Express, Mongo Atlas cloud, GraphQL, HTML, CSS."} livesite={false} github={'https://github.com/atharvabhuse/projectAdministrationMERNGstackApp'} click={clickHandler} clickvideo={clickvideoHandler} />
+      </div>
       <div className='grid-row' ref={foodref} >
         <PortfolioCard image={FoodApp} heading={"Food App"} desc1={"Implemented a basic react food app, where user can order dishes in number of quantites and it will be added to reflected to cart button."} desc2={"Technologies used- React, JavaScript, HTML, Tailwind CSS, Bootstrap."} livesite={false} github={'https://github.com/atharvabhuse/foodApp'} click={clickHandler} clickvideo={clickvideoHandler} />
       </div>

@@ -102,8 +102,8 @@ const Experience = () => {
         </div>
         <div style={{color: darkMode?'#cdcdcd':'black'}}>
           <ul>
-          <div className='company-heading' ><p>Polyglots Software LLP&nbsp;|&nbsp;</p><p style={{color: '#FCA61F'}}>Junior Software Engineer</p></div>
-          <div className='company-date' ><p>Jan 2022 - Present</p></div>
+          <div className='company-heading' ><p>Polyglots Software LLP&nbsp;|&nbsp;</p><p style={{color: '#FCA61F'}}>UI Developer</p></div>
+          <div className='company-date' ><p>March 2022 - Present</p></div>
 
 
           <li><span>Convert web deign into websites using ReactJs, Javascript, HTML, CSS(Flexbox/ Tailwind), Bootstrap with 100% accuracy and maintaining the code using GitHub.</span></li>

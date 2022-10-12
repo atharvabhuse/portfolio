@@ -18,7 +18,6 @@ const PortfolioCard = (props) => {
     props.clickvideo(props.heading)
   }
   
-
   return (
     <div className='portfoliocard'>
       <img src={props.image} />

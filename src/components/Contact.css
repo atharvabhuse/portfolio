@@ -88,3 +88,35 @@
     display: flex;
     text-align: left;
   }
+  @media screen and (max-width:480px) {
+    .contact{
+        flex-direction: column;
+    }
+    .contact-left >:nth-child(1){
+        padding-left: 0rem;
+    }
+    .contact-left >:nth-child(2){
+        padding-left: 0rem;
+        
+    }
+    .contact-left >:nth-child(3){
+        padding-left: 0rem;
+        
+    }
+    .contact-left >:nth-child(5){
+        padding-left: 0rem;
+    }
+    .contact-left >:nth-child(6){
+       padding-left: 0rem;
+    
+    }
+    .contact-left >:nth-child(7){
+        padding-left: 0rem;
+    }
+    .contact-left >:nth-child(8){
+        padding-left: 0rem;
+    }
+    .contact-row{
+        flex-direction: column;
+    }
+  }

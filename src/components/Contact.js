@@ -14,7 +14,7 @@ const Contact = () => {
         <div>Have Something to talk about?</div>
         <div>My inbox is always open.  Whether you have a question or just want to say hi, I'll get back to you sooner than you expect.</div>
         <br />
-        <div>
+        <div className='contact-row'>
           <div className='contact-div'>
             <span className='contact-span-1'><FontAwesomeIcon icon={faUser} style={{ color: '#FCA61F', fontSize: '20px', paddingRight: '1rem' }} /></span>
             <span className='contact-span-2'>Name<br />Atharva Bhuse</span>
@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className='contact-row'>
           {/* <div className='contact-div'>
             <span className='contact-span-1'><FontAwesomeIcon icon={faPhone} style={{ color: '#FCA61F', fontSize: '20px', paddingRight: '1rem' }} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className='contact-row'>
           {/* <div className='contact-div'>
             <span className='contact-span-1'><img className='linkedin-contact' src={linkedin} /></span>
             <div style={{ display: 'flex', flexDirection: 'column' }}>

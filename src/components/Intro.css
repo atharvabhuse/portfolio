@@ -149,12 +149,12 @@
         display: flex;
         flex: none;
         background-size: cover;
-        margin: 0rem;
+        margin: 2rem;
         padding-bottom: 0rem;
     }
     .intro-div-right{
-        transform: scale(0.6);
-        left: -4rem;
+        transform: scale(0.5);
+        left: -5rem;
     }
     .web-designer{
         position: absolute;

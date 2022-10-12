@@ -142,15 +142,24 @@
     .intro-div{
         display: flex;
         flex-direction: column;
-        width: 100%;        
+        width: 100%;
+        padding: 1rem 0rem 0rem 0rem;
     }
     .intro-div-left{
         display: flex;
         flex: none;
+        background-size: cover;
+        margin: 0rem;
+        padding-bottom: 0rem;
     }
     .intro-div-right{
-        transform: scale(0.8);
-        left: -3rem;
+        transform: scale(0.6);
+        left: -4rem;
+        top: -10%;
+    }
+    .web-designer{
+        position: absolute;
+        right: -70%;
     }
 }
 

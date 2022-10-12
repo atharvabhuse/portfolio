@@ -39,7 +39,7 @@ const Intro = () => {
 
                 <span>Hi! I am</span>
                 <span>Atharva Bhuse</span>
-                <span>React Full Stack | Junior Software Engineer @Polyglots software LLP</span>
+                <span>React Full Stack | UI Developer @Polyglots software LLP</span>
                 {/* <span>Full stack react developer with high level of experience in web designing and development and producting the Quality work.</span> */}
                 {/* <span><button className='intro-button'>Resume</button></span> */}
                 <span>
@@ -62,9 +62,11 @@ const Intro = () => {
                     <FloatingDiv text1={"Full Stack"} text2={"Developer"} icon={api} />
                 </motion.div>
 
+                <div className='web-designer'>
                 <motion.div initial={{right: '-10%'}} whileInView={{right: '0%'}} transition={{duration: '2',type: 'spring'}} whileHover={{scale: 1.1}} whileTap={{scale: 0.7}} style={{ position: 'absolute', zIndex: 5, marginTop: '27rem', marginLeft: '30rem',cursor: 'pointer'  }}>
                     <FloatingDiv text1={"Web"} text2={"Designer"} icon={thumb} />
                 </motion.div>
+                </div>
 
                 <span className='blur' style={{background: "rgb(0 255 248 / 76%)", marginLeft: '2rem',marginTop: '7rem'}}></span>
                 <span className='blur' style={{background: "rgb(251 210 28 / 88%)", marginLeft: '0rem',marginTop: '22rem'}}></span>

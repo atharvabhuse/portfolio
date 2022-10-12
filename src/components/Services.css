@@ -46,3 +46,18 @@
     flex: 2;
     position: relative;
 }
+
+@media screen and (max-width:480px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+
+    }
+    .services-left{
+        gap: 0rem;
+    }
+    .services-left >:nth-child(1){
+        padding-bottom: 1rem;
+    }
+}

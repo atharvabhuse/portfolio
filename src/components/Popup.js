@@ -25,7 +25,7 @@ console.log('props.image',props.image)
           <div>
             {
             <div className='popup-div' >
-              <SimpleImageSlider  width={750} height={350} images={images} showBullets={true} showNavs={true}  />
+              {props.image ? <SimpleImageSlider width={'50vmax'} height={'25vmax'} images={images} showBullets={true} showNavs={true}  />:''}
               {/* <img src={props.image} /> */}
             </div>
             }

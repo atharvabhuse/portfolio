@@ -1,0 +1,24 @@
+.dsaprofile_desc{
+    text-align: left;
+    font-size: 1vmax;
+}
+@media screen and(max-width: 600px) {
+    .certificatecard-image{
+        display: flex;
+        width: 100%;
+    }
+    .image{
+        display: flex;
+        width: 100% !important;
+        object-fit: cover;
+    }
+    .certificatecard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+    }
+    .certificatecard-p {
+        font-size: 1vmax;
+    }
+}

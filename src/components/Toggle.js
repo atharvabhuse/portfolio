@@ -20,7 +20,6 @@ const Toggle = () => {
                     <FontAwesomeIcon icon={faSun} className='toggle1-icon' />
                 </div >
                 :
-
                 <div className='toggle' onClick={handleClick}>
                     <div className='toggle-div' ></div >
                     <FontAwesomeIcon icon={faSun} className='toggle-icon' />

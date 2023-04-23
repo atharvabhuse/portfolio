@@ -10,6 +10,10 @@ import { useContext } from 'react';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Certification from './components/Certification';
+import Additional from './components/Additional';
+import Message from './components/Message';
+import DSAProfile from './components/DSAProfile';
+import BloggingProfile from './components/BloggingProfile';
 function App() {
   const theme=useContext(themeContext)
   const darkMode=theme.state.darkMode
@@ -18,9 +22,13 @@ function App() {
       <NavBar />
       <Intro />
       <Services />
+      <Message />
       <Experience />
       <Portfolio />
+      <DSAProfile />
+      <BloggingProfile />
       <Certification />
+      <Additional />
       <Contact />
       <Footer />
     </div>

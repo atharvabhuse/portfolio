@@ -1,18 +1,15 @@
 import React from 'react'
 import PortfolioCard from './PortfolioCard'
-import UdemyReact from '../images/udemy_react.jpg'
-import UdemyGraphQL from '../images/udemy_graphQL.jpg'
-import HackerRank from '../images/HackerRankCertificate.png'
+import Leetcode from '../images/leetcode.png'
+import HackerRank from '../images/hackerrank.png'
 import zerodha1 from '../images/zerodha1.jpg'
 import zerodha2 from '../images/zerodha2.jpg'
 import CertificateCard from './CertificateCard'
-import './Certification.css'
 import { useState } from 'react'
 import Popup from './Popup'
-import FoodApp1 from '../images/project images and video/reactFoodApp/foodapp1.png'
-import FoodApp2 from '../images/project images and video/reactFoodApp/foodapp2.png'
+import DSAProfileCard from './DSAProfileCard'
 
-const Certification = () => {
+const DSAProfile = () => {
     const [popup, setPopup] = useState(false)
     const [image, setImage] = useState()
 
@@ -42,17 +39,14 @@ const Certification = () => {
 
     return (
         <div className='portfolio' id='Certification'>
-            <div className='portfolioMain-heading'>Certifications</div>
+            <div className='portfolioMain-heading'>DSA Profiles</div>
             <div className='certification-row'>
-                <CertificateCard image={UdemyReact} heading={"Udemy React"} desc1={""} desc2={""} livesite={true} />
-                <CertificateCard image={UdemyGraphQL} heading={"Udemy GraphQL"} desc1={""} desc2={""} livesite={true} />
-                <CertificateCard image={HackerRank} heading={"HackerRank Problem Solving"} desc1={""} desc2={""} livesite={true} />
-                <CertificateCard image={zerodha2} heading={"Zerodha"} desc1={""} desc2={""} livesite={false} />
-                <CertificateCard image={zerodha1} heading={"Zerodha"} desc1={""} desc2={""} livesite={false} />
+            <DSAProfileCard image={Leetcode} heading={"Leetcode"} desc1={"200+ Problem solved"} desc2={"3 badges"} livesite={true} />
+            <DSAProfileCard image={HackerRank} heading={"HackerRank"} desc1={"5 star in problem solving"} desc2={""} livesite={true} />
             </div>
             {popup ? <Popup image={image} clickoverlay={clickoverlay} /> : ''}
         </div>
     )
 }
 
-export default Certification
+export default DSAProfile

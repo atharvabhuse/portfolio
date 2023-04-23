@@ -9,8 +9,7 @@
 .certification-row{
     display: flex;
     flex-direction: row;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    flex-wrap: wrap;
 }
 .portfoliocard img{
     width: 30rem;
@@ -43,14 +42,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: auto;
-    margin-top: -0.3rem;
+    margin-top: 0rem;
     cursor: pointer;
 
 }
 .buttons{ 
     display: flex;
     flex-direction: row;
-    padding-left: 1rem;
+    margin-left: 2vw;
 }
 .buttons p{
     display: flex;
@@ -66,10 +65,10 @@
     flex-direction: row;
     color: inherit;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .certification-row{
-    flex-direction: column;
-    padding-right: 0rem;
-    padding-left: 0rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
     }
 }

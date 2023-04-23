@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from './Card'
 import './Services.css'
 import emoji from '../images/emoji2.png'
-import Resume from '../Resume_Atharva.pdf'
+import Resume from '../Atharva_Bhuse_Resume.pdf'
 import { motion } from 'framer-motion'
 import api1 from '../images/api1.png'
 import database from '../images/database1.png'
 import care from '../images/care.png'
 import react from '../images/react.png'
 const Services = () => {
+
+    const [width, setWidth] = useState(window.innerWidth)
+
+    useEffect(()=> {
+        setWidth(window.innerWidth)
+    }, [window.innerWidth])
+    console.log('width', width, window.innerWidth)
     return (
         <div className='services' id='About'>
             <div className='services-left'>
@@ -25,28 +32,34 @@ const Services = () => {
             </div>
             <div className='services-right'>
 
-                <motion.div initial={{left:'0%'}} whileInView={{left: '20%',top: '-2%'}} transition={{duration: '2',type: 'spring'}} style={{ position: 'absolute', marginTop: '2rem' }}>
-                    <Card icon={react} heading1={"Front End"} heading2={"Development"} text={"React, Javascript, Jquery, HTML, CSS, CSS Flexbox, CSS Tailwind, Bootstrap"} />
+                {width > 600 ? <><motion.div initial={{left:'0%'}} whileInView={{left: '20%',top: '-2%'}} transition={{duration: '2',type: 'spring'}} className='motion1'>
+                    <Card className='services_card' icon={react} heading1={"Front End"} heading2={"Development"} text={"React, Javascript, Typescript, HTML, CSS, SASS, JQuery"} />
                 </motion.div>
 
-                <motion.div initial={{left:'0%'}} whileInView={{left: '15%',top: '-8%'}} transition={{duration: '2',type: 'spring'}} style={{ position: 'absolute', marginTop: '26rem', marginLeft: '3rem' }}>
-                    <Card icon={care} heading1={"Web"} heading2={"Design"} text={"Figma, Adobe Photoshop, Adobe Express"} />
+                <motion.div initial={{left:'0%'}} whileInView={{left: '15%',top: '-15%'}} transition={{duration: '2',type: 'spring'}} className='motion2'>
+                    <Card className='services_card' icon={care} heading1={"Web"} heading2={"Design"} text={"Redux, React‑Redux, Redux‑toolkit, RTK Query, Redux‑Thunk, React‑router‑dom, Axios, Formik, Yup, React query, React‑Stripe‑js, React‑PDF, React‑Helmet, Material UI, Bootstrap"} />
                 </motion.div>
 
-                <motion.div initial={{left:'0%'}} whileInView={{left: '-3.5%',top: '0%'}} transition={{duration: '2',type: 'spring'}} style={{ position: 'absolute', marginTop: '1rem', marginLeft: '30rem' }}>
-                    <Card icon={api1} heading1={"Back End"} heading2={"Development"} text={"JavaScript, Json"} />
+                <motion.div initial={{left:'0%'}} whileInView={{left: '-3.5%',top: '0%'}} transition={{duration: '2',type: 'spring'}} className='motion3'>
+                    <Card className='services_card' icon={api1} heading1={"Back End"} heading2={"Development"} text={"NodeJs, ExpressJs, MongoDB, Mongoose, Restful APIs"} />
                 </motion.div>
 
-                <motion.div initial={{left:'0%'}} whileInView={{left: '1%',top: '-14%'}} transition={{duration: '2',type: 'spring'}} style={{ position: 'absolute', marginTop: '24rem', marginLeft: '27rem' }}>
-                    <Card icon={database} heading1={"Database"} heading2={"Management"} text={"Mongo DB, Database Management System, MySql"} />
+                <motion.div initial={{left:'0%',bottom: '-2%'}} whileInView={{left: '1%',top: '-8%'}} transition={{duration: '2',type: 'spring'}} className='motion4'>
+                    <Card className='services_card' icon={database} heading1={"Database"} heading2={"Management"} text={"React Native, React Navigation, React Native Paper, Android Studio, Pagination, Async storage, PDF download, Push Notifications, Google Firebase, Expo, Publishing"} />
                 </motion.div>
 
-                <motion.div initial={{left:'0%'}} whileInView={{left: '-3%',top: '0%'}} transition={{duration: '2',type: 'spring'}} style={{ position: 'absolute', marginTop: '1rem', marginLeft: '45rem' }}>
-                    <Card icon={emoji} heading1={"Miscellinous"} heading2={"Skills"} text={"Git, Jira, Wordpress, Search Engine Optimization, Microsoft Excel, Microsoft Powerpoint, Microsoft Word"} />
+                <motion.div initial={{left:'0%'}} whileInView={{left: '-3%',top: '0%'}} transition={{duration: '2',type: 'spring'}} className='motion5'>
+                    <Card className='services_card' icon={emoji} heading1={"Miscellaneous"} heading2={"Skills"} text={"Problem solving, Data structure, Algorithms, Speed Optimization, Responsive, designs, Figma, Git, Jira, Agile Methodologies, Adobe Photoshop, SEO, Wordpress, Technical writting, MS Office"} />
                 </motion.div>
-
-                {/* <span className='blur' style={{background: "rgba(255, 0, 240, 0.22)", marginLeft: '30rem',marginTop: '5rem'}}></span> */}
-
+                </>
+                :
+                <>
+                <Card icon={react} heading1={"Front End"} heading2={"Development"} text={"React, Javascript, Typescript, HTML, CSS, SASS, Jquery"}/>
+                <Card className='services_card' icon={care} heading1={"Web"} heading2={"Design"} text={"Redux, React‑Redux, Redux‑toolkit, RTK Query, Redux‑Thunk, React‑router‑dom, Axios, Formik, Yup, React query, React‑Stripe‑js, React‑PDF, React‑Helmet, Material UI, Bootstrap"} />
+                <Card className='services_card' icon={api1} heading1={"Back End"} heading2={"Development"} text={"NodeJs, ExpressJs, MongoDB, Mongoose, Restful APIs"} />
+                <Card className='services_card' icon={database} heading1={"Database"} heading2={"Management"} text={"React Native, React Navigation, React Native Paper, Android studio, Pagination, Async Storage, PDF download, Push notifications, Google Firebase, Expo, Publishing"} />
+                <Card className='services_card' icon={emoji} heading1={"Miscellinous"} heading2={"Skills"} text={"Problem solving, Data structure, Algorithms, Speed Optimization, Responsive, designs, Figma, Git, Jira, Agile Methodologies, Adobe Photoshop, SEO, Wordpress, Technical writting, MS Office"} />
+                 </>}
 
             </div>
         </div>

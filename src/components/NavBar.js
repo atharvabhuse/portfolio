@@ -4,7 +4,7 @@ import Toggle from './Toggle'
 import { Link } from 'react-scroll'
 import { themeContext } from '../Context'
 import Popup from './Popup'
-import Resume from '../Resume_Atharva.pdf'
+import Resume from '../Atharva_Bhuse_Resume.pdf'
 
 
 const NavBar = () => {
@@ -19,7 +19,7 @@ const NavBar = () => {
 
         <ul className='navbar-ul-1'>
           <li className='navbar-li' style={{color: darkMode?'white': 'black'}}>Atharva</li>
-          <li><Toggle /></li>
+          <Toggle />
         </ul>
 
         <ul className='navbar-ul-2'>

@@ -57,41 +57,44 @@ const Portfolio = () => {
   const todoref = useRef()
 
   const [popup, setPopup] = useState(false)
-  const [image1,setImage1]=useState()
-  const [image2,setImage2]=useState()
-  const [image3,setImage3]=useState()
-  const [image,setImage]=useState()
-  const [video,setVideo]=useState()
+  const [image1, setImage1] = useState()
+  const [image2, setImage2] = useState()
+  const [image3, setImage3] = useState()
+  const [image, setImage] = useState()
+  const [video, setVideo] = useState()
 
 
 
 
   const clickHandler = (data) => {
     setPopup(true)
-    if (data=='Project Administration(Full stack app)') {
-      let imgvar=[{url: FullstackApp1},{url: FullstackApp2},{url: FullstackApp3},{url: FullstackApp4}]
+    if (data == 'Ecommerce App') {
+      let imgvar = [{ url: ClothApp1 }, { url: ClothApp2 }, { url: ClothApp3 }, { url: ClothApp4 }, { url: ClothApp5 }, { url: ClothApp6 }, { url: ClothApp7 }, { url: ClothApp8 }, { url: ClothApp9 }, { url: ClothApp10 }, { url: ClothApp11 }, { url: ClothApp12 }]
+      setImage(imgvar)
+    } else if (data == 'Project Administration(Full stack app)') {
+      let imgvar = [{ url: FullstackApp1 }, { url: FullstackApp2 }, { url: FullstackApp3 }, { url: FullstackApp4 }]
       setImage(imgvar)
 
-    } else if (data=='Food App') {
-      let imgvar=[{url: FoodApp1},{url: FoodApp2}]
+    } else if (data == 'Food App') {
+      let imgvar = [{ url: FoodApp1 }, { url: FoodApp2 }]
       setImage(imgvar)
 
-    } else if (data=='Todo App') {
-      let imgvar=[{url: TodoApp1},{url: TodoApp2}]
+    } else if (data == 'Todo App') {
+      let imgvar = [{ url: TodoApp1 }, { url: TodoApp2 }]
       setImage(imgvar)
 
-    } else if (data=='Cloth App'){
-      let imgvar=[{url: ClothApp1},{url: ClothApp2},{url: ClothApp3},{url: ClothApp4},{url: ClothApp5},{url: ClothApp6},{url: ClothApp7},{url: ClothApp8},{url: ClothApp9},{url: ClothApp10},{url: ClothApp11},{url: ClothApp12}]
+    } else if (data == 'Cloth App') {
+      let imgvar = [{ url: ClothApp1 }, { url: ClothApp2 }, { url: ClothApp3 }, { url: ClothApp4 }, { url: ClothApp5 }, { url: ClothApp6 }, { url: ClothApp7 }, { url: ClothApp8 }, { url: ClothApp9 }, { url: ClothApp10 }, { url: ClothApp11 }, { url: ClothApp12 }]
       setImage(imgvar)
-    } else if(data=='Mobile App'){
-      let imgvar=[{url: MobileApp1},{url: MobileApp2},{url: MobileApp3},{url: MobileApp4},{url: MobileApp5},{url: MobileApp6},{url: MobileApp7},{url: MobileApp8},{url: MobileApp9},{url: MobileApp10},{url: MobileApp11}]
+    } else if (data == 'Mobile App') {
+      let imgvar = [{ url: MobileApp1 }, { url: MobileApp2 }, { url: MobileApp3 }, { url: MobileApp4 }, { url: MobileApp5 }, { url: MobileApp6 }, { url: MobileApp7 }, { url: MobileApp8 }, { url: MobileApp9 }, { url: MobileApp10 }, { url: MobileApp11 }]
       setImage(imgvar)
     }
   }
 
-  const clickvideoHandler=(data)=>{
-    if (data=='Food App') {
-      let videovar=[]
+  const clickvideoHandler = (data) => {
+    if (data == 'Food App') {
+      let videovar = []
       setVideo(videovar)
     }
   }
@@ -102,7 +105,10 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio' id='Portfolio'>
-      <div className='portfolio-heading'>Something I've build</div>
+      <div className='portfolioMain-heading'>Something I've build</div>
+      <div className='grid-row'>
+        <PortfolioCard image={MobileApp} heading={"Ecommerce App(MERN Stack)"} desc1={"On the front‑end, I used React to create a dynamic user interface that displays product details, allows users to search and filter products, and provides a smooth checkout process. I also implemented features like user authentication and authorization, so that users can create accounts, sign in, and access their order history. On the back‑end, I used Node.js and Express.js to create a RESTful API that connects to a MongoDB database. This API handles user authentication and authorization, as well as managing product and order data. I also integrated Stripe for payment processing, ensuring that transactions are secure and seamless for users. Overall, building this e‑commerce website using the MERN stack allowed me to gain experience in full‑stack web development, and I am excited to continue building and expanding my skills in this area"} desc2={"Technologies used- React, Redux, Redux Thunk, Javascript, HTML, CSS, Axios, Stripe, MongoDB, Mongoose, Express, Node, Restful APIs."} livesite={false} github={false} click={clickHandler} />
+      </div>
       <div className='grid-row' ref={foodref} >
         <PortfolioCard image={FullstackApp} heading={"Project Administration(Full stack app)"} desc1={"Implemented a MERNG stack project administration app, where administrator can add clients and there respective projects. All the data is stored in Mongo Atlas cloud and used graphql for queries."} desc2={"Technologies used- React, JavaScript, Node Js, Express, Mongo Atlas cloud, GraphQL, HTML, CSS."} livesite={false} github={'https://github.com/atharvabhuse/projectAdministrationMERNGstackApp'} click={clickHandler} clickvideo={clickvideoHandler} />
       </div>

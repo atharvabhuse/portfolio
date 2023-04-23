@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem 0 5rem;
-    height: 100vh;
+    flex-wrap: wrap;
 }
 .services-left{
     display: flex;
@@ -12,6 +12,7 @@
     text-align: start;
     gap: 1rem;
     justify-content: start;
+    flex-wrap: wrap;
 }
 /* .services-left >:nth-child(1){
     font-size: 3rem;
@@ -25,6 +26,9 @@
 }
 
 .services-left >:nth-child(3){
+}
+.card p {
+    font-size: 0.8vmax;
 }
 
 .services-button{
@@ -46,32 +50,60 @@
     flex: 2;
     position: relative;
 }
+.motion1 {
+    position: absolute;
+    margin-top: 2vmax;
+}
+.motion2 {
+    position: absolute;
+    margin-top: 26vmax;
+    margin-left: 3vmax;
+}
+.motion3 {
+    position: absolute;
+    margin-top: 1vmax;
+    margin-left: 30vmax;
+}
+.motion4 {
+    position: absolute;
+    margin-top: 24vmax;
+    margin-left: 27vmax;
+}
+.motion5 {
+    position: absolute;
+    margin-top: 1vmax;
+    margin-left: 45vmax;
+}
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .services{
         display: flex;
         flex-direction: column;
-        padding: 0rem;
-
+        padding: 0vw 3vw;
+        flex-wrap: wrap;
+        margin-top: 4vh;
     }
     .services-left{
         gap: 0rem;
+        line-height: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 5vh;
     }
     .services-left >:nth-child(1){
         padding-bottom: 1rem;
+        font-size: 2.5vmax;
     }
-    .services-right{
-        display: flex;
-        flex-direction: column;
+    .services-left >:nth-child(2){
+        font-size: 2vmax;
     }
-    .services-right>*{
-        position: static;
+    .services-right {
+        position: relative;
         display: flex;
-        flex-direction: column;
-        margin-top: 0rem;
-        margin-right: 0rem;
-        margin-left: 0rem;
-        margin-bottom: 0rem;
-
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        flex: 0;
     }
 }

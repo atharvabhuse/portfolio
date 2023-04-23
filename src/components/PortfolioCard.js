@@ -19,24 +19,27 @@ const PortfolioCard = (props) => {
   }
   
   return (
-    <div className='portfoliocard'>
+    <div className='portfoliocardMain' style={props.heading=='Ecommerce App(MERN Stack)' ? {border: '5px solid #F5C32C'}:{}}>
+      <div className='portfoliocardMain-imgBox'>
       <img className='portfoliocard-img' src={props.image} />
+      </div>
       <div className='portfoliocard-content'>
 
         <div className='portfoliocard-heading'>{props.heading}</div>
+
+        {props.heading=='Ecommerce App(MERN Stack)' ? <span className='portfoliocard-featured'>Featured</span> : ''}
 
         <div className='portfoliocard-desc'>{props.desc1} <br />{props.desc2}<br />{props.desc3}<br />{props.desc4}</div>
 
         <div className='buttons'>
 
-          <a href={props.github} style={{ opacity: props.github == false ? '0.5' : '' }}>
-            <img src={github}/>
-            <p>Github</p>
+          <a className='buttons-a' href={props.github} style={{ opacity: props.github == false ? '0.5' : '' }}>
+            <img className='butttons-img' src={github}/>
+            <p className='buttons-a'>Github</p>
           </a>
-
-          <FontAwesomeIcon icon={faImages} style={{ color: '#FCA61F', marginTop: '0.2rem' }} /><p onClick={popupHandler}>Images</p>
-          <FontAwesomeIcon icon={faVideo} style={{ color: '#FCA61F', marginTop: '0.2rem' }} /><p onClick={popupvideoHandler}>Video</p>
-          <FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} /><p style={{ opacity: props.livesite == false ? '0.5' : '' }}>Live site</p>
+          <FontAwesomeIcon icon={faImages} style={{ color: '#FCA61F', marginTop: '0.2rem' }} /><p className='buttons-a' onClick={popupHandler}>Images</p>
+          <FontAwesomeIcon icon={faVideo} style={{ color: '#FCA61F', marginTop: '0.2rem' }} /><p className='buttons-a' onClick={popupvideoHandler}>Video</p>
+          <FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} /><p className='buttons-a' style={{ opacity: props.livesite == false ? '0.5' : '' }}>Live site</p>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 
 }
 body::-webkit-scrollbar{
@@ -54,11 +55,12 @@ body::-webkit-scrollbar-track{
     transform: rotate(360deg);
   }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
   .App{
-    padding: 0.5rem 1rem;
+    padding: 0rem 0rem;
   }
 }
+
 :root{
   --customyellow: #F5C32C;
   --customorange: #FCA61F;

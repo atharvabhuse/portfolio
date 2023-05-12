@@ -37,9 +37,9 @@ const PortfolioCard = (props) => {
             <img className='butttons-img' src={github}/>
             <p className='buttons-a'>Github</p>
           </a>
-          <FontAwesomeIcon icon={faImages} style={{ color: '#FCA61F', marginTop: '0.2rem' }} /><p className='buttons-a' onClick={popupHandler}>Images</p>
-          <FontAwesomeIcon icon={faVideo} style={{ color: '#FCA61F', marginTop: '0.2rem' }} /><p className='buttons-a' onClick={popupvideoHandler}>Video</p>
-          <FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} /><p className='buttons-a' style={{ opacity: props.livesite == false ? '0.5' : '' }}>Live site</p>
+          <FontAwesomeIcon icon={faImages} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.heading=='Ecommerce App(MERN Stack)'?0.5:'' }} /><p className='buttons-a' onClick={popupHandler} style={{opacity: props.heading=='Ecommerce App(MERN Stack)'? 0.5:''}}>Images</p>
+          <FontAwesomeIcon icon={faVideo} style={{ color: '#FCA61F', marginTop: '0.2rem',opacity: 0.5 }} /><p className='buttons-a' onClick={popupvideoHandler} style={{opacity: 0.5}}>Video</p>
+          <a className='buttons-a' href={props.livesite}><FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} /><p className='buttons-a' style={{ opacity: props.livesite == false ? '0.5' : '' }}>Live site</p></a>
         </div>
       </div>
     </div>

@@ -58,7 +58,7 @@ const Services = () => {
                 <Card className='services_card' icon={care} heading1={"Web"} heading2={"Design"} text={"Redux, React‑Redux, Redux‑toolkit, RTK Query, Redux‑Thunk, React‑router‑dom, Axios, Formik, Yup, React query, React‑Stripe‑js, React‑PDF, React‑Helmet, Material UI, Bootstrap"} />
                 <Card className='services_card' icon={api1} heading1={"Back End"} heading2={"Development"} text={"NodeJs, ExpressJs, MongoDB, Mongoose, Restful APIs"} />
                 <Card className='services_card' icon={database} heading1={"Database"} heading2={"Management"} text={"React Native, React Navigation, React Native Paper, Android studio, Pagination, Async Storage, PDF download, Push notifications, Google Firebase, Expo, Publishing"} />
-                <Card className='services_card' icon={emoji} heading1={"Miscellinous"} heading2={"Skills"} text={"Problem solving, Data structure, Algorithms, Speed Optimization, Responsive, designs, Figma, Git, Jira, Agile Methodologies, Adobe Photoshop, SEO, Wordpress, Technical writting, MS Office"} />
+                <Card className='services_card' icon={emoji} heading1={"Miscellinous"} heading2={"Skills"} text={"AWS, Problem solving, Data structure, Algorithms, Speed Optimization, Responsive, designs, Figma, Git, Jira, Agile Methodologies, Adobe Photoshop, SEO, Wordpress, Technical writting, MS Office"} />
                  </>}
 
             </div>

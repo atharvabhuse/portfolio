@@ -21,7 +21,7 @@
 @media screen and (max-width: 600px) {
     .card {
         position:relative;
-        width: 40%;
+        width: 34%;
         height: 18vmax;
         margin: 0;
         margin-bottom: 1vh;

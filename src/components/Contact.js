@@ -17,7 +17,7 @@ const Contact = () => {
         <div className='contact-row'>
           <div className='contact-div'>
             <span className='contact-span-1'><FontAwesomeIcon icon={faUser} style={{ color: '#FCA61F', fontSize: '14px', paddingRight: '1rem' }} /></span>
-            <span className='contact-span-2'>Name<br />Atharva Bhuse</span>
+            <span className='contact-span-2'>Name<br />Atharva Prashant Bhuse</span>
           </div>
           <div className='contact-div'>
             <span className='contact-span-1'><FontAwesomeIcon icon={faLocationPin} style={{ color: '#FCA61F', fontSize: '14px', paddingRight: '1rem' }} /></span>

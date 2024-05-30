@@ -37,7 +37,7 @@ const Intro = () => {
             <div className='intro-div' id='Intro'>
                 <div className='intro-div-left' style={{ backgroundImage: `url(${background})`, animation: 'fadeIn 1s forwards', transform: 'rotateZ(30deg) !important' }}>
                     <span>Hi! I am</span>
-                    <span>Atharva Bhuse</span>
+                    <span>Atharva Prashant Bhuse</span>
                     <span>Frontend Developer @Polyglots software LLP</span>
                     <span>React | React Native | Next | Redux | React Query | Express | Node | MongoDB | AWS | DSA | Tech Blogger | F&O Stock market trader</span>
                     {/* <span>Full stack react developer with high level of experience in web designing and development and producting the Quality work.</span> */}
@@ -61,14 +61,14 @@ const Intro = () => {
                         <FloatingDiv text1={"Full Stack"} text2={"Developer"} icon={api} />
                     </motion.div>
                     <div className='web-designer'>
-                        <motion.div initial={{ right: '-10%' }} whileInView={{ left: '-40%' }} transition={{ duration: '2', type: 'spring' }} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.7 }} style={{ position: 'absolute', zIndex: 5, marginTop: '27rem', marginLeft: '50vw', cursor: 'pointer' }}>
+                        <motion.div initial={{ right: '-10%' }} whileInView={{ left: '-40%' }} transition={{ duration: '2', type: 'spring' }} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.7 }} style={{ position: 'absolute', zIndex: 5, marginTop: '27rem', marginLeft: '43vw', cursor: 'pointer' }}>
                             <FloatingDiv text1={"Web"} text2={"Designer"} icon={thumb} />
                         </motion.div>
                         </div>
 
-                    <span className='blur' style={{ background: "rgb(0 255 248 / 76%)", marginLeft: '2rem', marginTop: '7rem' }}></span>
-                    <span className='blur' style={{ background: "rgb(251 210 28 / 88%)", marginLeft: '0rem', marginTop: '22rem' }}></span>
-                    <span className='blur' style={{ background: "rgb(6 255 0 / 61%)", marginLeft: '22rem', marginTop: '22rem' }}></span>
+                    <span className='blur' style={{ background: "rgb(0 255 248 / 76%)", marginLeft: '2rem', zIndex: 1,marginTop: '7rem' }}></span>
+                    <span className='blur' style={{ background: "rgb(251 210 28 / 88%)", marginLeft: '0rem', zIndex: 1,marginTop: '22rem' }}></span>
+                    <span className='blur' style={{ background: "rgb(6 255 0 / 61%)", marginLeft: '22rem', zIndex: 1,marginTop: '22rem' }}></span>
                 </div>
 
             </div>

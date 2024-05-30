@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 0 1rem 0 5rem;
     flex-wrap: wrap;
+    margin-top: 4rem;
 }
 .services-left{
     display: flex;

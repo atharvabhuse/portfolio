@@ -33,11 +33,11 @@ const Services = () => {
             <div className='services-right'>
 
                 {width > 600 ? <><motion.div initial={{left:'0%'}} whileInView={{left: '20%',top: '-2%'}} transition={{duration: '2',type: 'spring'}} className='motion1'>
-                    <Card className='services_card' icon={react} heading1={"Front End"} heading2={"Development"} text={"React, Javascript, Typescript, HTML, CSS, SASS, JQuery"} />
+                    <Card className='services_card' icon={react} heading1={"Front End"} heading2={"Development"} text={"React, Javascript, Typescript, Next, HTML, CSS, SASS, JQuery"} />
                 </motion.div>
 
                 <motion.div initial={{left:'0%'}} whileInView={{left: '15%',top: '-15%'}} transition={{duration: '2',type: 'spring'}} className='motion2'>
-                    <Card className='services_card' icon={care} heading1={"Web"} heading2={"Design"} text={"Redux, React‑Redux, Redux‑toolkit, RTK Query, Redux‑Thunk, React‑router‑dom, Axios, Formik, Yup, React query, React‑Stripe‑js, React‑PDF, React‑Helmet, Material UI, Bootstrap"} />
+                    <Card className='services_card' icon={care} heading1={"Frontend"} heading2={"Libraries"} text={"Redux, React‑Redux, Redux‑toolkit, RTK Query, Redux‑Thunk, React‑router‑dom, Axios, Formik, Yup, React query, React-hook-form, React‑Stripe‑js, React‑PDF, React‑Helmet, Material UI, Bootstrap"} />
                 </motion.div>
 
                 <motion.div initial={{left:'0%'}} whileInView={{left: '-3.5%',top: '0%'}} transition={{duration: '2',type: 'spring'}} className='motion3'>

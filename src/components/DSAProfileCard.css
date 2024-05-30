@@ -16,7 +16,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40vw;
+        /* width: 100vmax; */
     }
     .certificatecard-p {
         font-size: 1vmax;

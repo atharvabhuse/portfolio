@@ -4,7 +4,7 @@ import github from '../images/github1.png'
 import linkedin from '../images/linkedin1.png'
 import svg1 from '../images/yellowvector5.svg'
 import svg2 from '../images/bluevector.svg'
-import svg3 from '../images/My project (4).png'
+import svg3 from '../images/My project (6).png'
 import thumb from '../images/thumb1.png'
 import emoji from '../images/emoji.png'
 import cup from '../images/PngItem_3433294.png'
@@ -39,7 +39,7 @@ const Intro = () => {
                     <span>Hi! I am</span>
                     <span>Atharva Bhuse</span>
                     <span>Frontend Developer @Polyglots software LLP</span>
-                    <span>React | React Native | Redux | Express | Node | MongoDB | AWS | DSA | Tech Blogger | F&O Stock market trader</span>
+                    <span>React | React Native | Next | Redux | React Query | Express | Node | MongoDB | AWS | DSA | Tech Blogger | F&O Stock market trader</span>
                     {/* <span>Full stack react developer with high level of experience in web designing and development and producting the Quality work.</span> */}
                     {/* <span><button className='intro-button'>Resume</button></span> */}
                     <span>

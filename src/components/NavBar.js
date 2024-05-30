@@ -4,7 +4,7 @@ import Toggle from './Toggle'
 import { Link } from 'react-scroll'
 import { themeContext } from '../Context'
 import Popup from './Popup'
-import Resume from '../Atharva_Bhuse_Resume.pdf'
+import Resume from '../AtharvaBhuseResume.pdf'
 
 
 const NavBar = () => {

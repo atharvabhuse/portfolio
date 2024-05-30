@@ -5,6 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Themeprovider } from './Context';
 
+let obj = {
+  a: 10,
+  x: ()=>{
+    console.log('this in function',this)
+  }
+}
+obj.x()
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

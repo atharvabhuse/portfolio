@@ -13,6 +13,7 @@ import Ecommerce from '../images/ecommerce.png'
 import TodoApp from '../images/project images and video/reactTodoApp/todo.png'
 import MobileApp from '../images/project images and video/wordpressMobileApp/mobileapp.png'
 import ClothApp from '../images/project images and video/wordpressClothApp/clothapp.png'
+import Dashboard1 from '../images/project images and video/DashboardApp/dashboardApp1.png'
 
 import FoodApp1 from '../images/project images and video/reactFoodApp/foodapp1.png'
 import FoodApp2 from '../images/project images and video/reactFoodApp/foodapp2.png'
@@ -52,6 +53,12 @@ import FullstackApp2 from '../images/fullstack2.png'
 import FullstackApp3 from '../images/fullstack3.png'
 import FullstackApp4 from '../images/fullstack4.png'
 
+import Dashboard2 from '../images/project images and video/DashboardApp/dashboardApp2.png'
+import Dashboard3 from '../images/project images and video/DashboardApp/dashboardApp3.png'
+import Dashboard4 from '../images/project images and video/DashboardApp/dashboardApp4.png'
+import Dashboard5 from '../images/project images and video/DashboardApp/dashboardApp5.png'
+
+
 const Portfolio = () => {
 
   const foodref = useRef()
@@ -75,8 +82,10 @@ const Portfolio = () => {
     } else if (data == 'Project Administration(Full stack app)') {
       let imgvar = [{ url: FullstackApp1 }, { url: FullstackApp2 }, { url: FullstackApp3 }, { url: FullstackApp4 }]
       setImage(imgvar)
-
-    } else if (data == 'Food App') {
+    } else if(data == 'Developers dashboard'){
+      let imgvar = [{ url: Dashboard1 }, { url: Dashboard2 }, { url: Dashboard3 }]
+      setImage(imgvar)
+    }else if (data == 'Food App') {
       let imgvar = [{ url: FoodApp1 }, { url: FoodApp2 }]
       setImage(imgvar)
 
@@ -115,6 +124,16 @@ const Portfolio = () => {
           desc2={"Technologies used- React, Redux, Redux Thunk, Javascript, HTML, CSS, Axios, Stripe, MongoDB, Mongoose, Express, Node, Restful APIs."}
           livesite={'http://13.233.195.136:4000/'}
           github={'https://github.com/atharvabhuse/ecommerce'}
+          click={clickHandler} />
+      </div>
+      <div className='grid-row'>
+        <PortfolioCard
+          image={Dashboard1}
+          heading={"Developers dashboard"}
+          desc1={"The Developers Dashboard is an interactive web application designed to manage and display developer activity data. It features a user-friendly interface where users can select developers from a list to view detailed metrics, including active days, burnout status, and total activity. Visual representations such as pie charts and line charts are used to illustrate activity distribution and trends over time. The application supports theme toggling between light and dark modes and is fully responsive for optimal use on both desktop and mobile devices."}
+          desc2={"Technologies used- React, Typescript, ChartJS, HTML, CSS, Sass, Restful APIs."}
+          livesite={'https://atharvabhuse.github.io/developerDashboard/'}
+          github={'https://github.com/atharvabhuse/developerDashboard'}
           click={clickHandler} />
       </div>
       <div className='grid-row' ref={foodref} >

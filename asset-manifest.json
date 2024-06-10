@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3532c32a.css",
-    "main.js": "/portfolio/static/js/main.065cbb63.js",
+    "main.js": "/portfolio/static/js/main.ca041e42.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/My project (6).png": "/portfolio/static/media/My project (6).797fda78dcd2831d23c8.png",
     "static/media/foodapp1.png": "/portfolio/static/media/foodapp1.7bbb9aeb8a3ada12a687.png",
@@ -44,9 +44,12 @@
     "static/media/fullstack5.png": "/portfolio/static/media/fullstack5.283709c6d0c579a29c66.png",
     "static/media/fullstack2.png": "/portfolio/static/media/fullstack2.4e59ef8ef67639afce60.png",
     "static/media/fullstack1.png": "/portfolio/static/media/fullstack1.11617f41b174e8cf46ad.png",
+    "static/media/dashboardApp2.png": "/portfolio/static/media/dashboardApp2.937641862f589bb0ea82.png",
+    "static/media/dashboardApp1.png": "/portfolio/static/media/dashboardApp1.e2af4b2cde26ba07613f.png",
     "static/media/todoapp2.png": "/portfolio/static/media/todoapp2.37f4ebd159a4996a7c4f.png",
     "static/media/TradeDemo.png": "/portfolio/static/media/TradeDemo.3f231e9a3b65c2689eed.png",
     "static/media/fullstack4.png": "/portfolio/static/media/fullstack4.fc99a79025152205f181.png",
+    "static/media/dashboardApp3.png": "/portfolio/static/media/dashboardApp3.656fc339b1d1873b9c88.png",
     "static/media/emoji.png": "/portfolio/static/media/emoji.0e32dd45c78f6995855b.png",
     "static/media/JP Morgan agile.png": "/portfolio/static/media/JP Morgan agile.952aabea56165e349a34.png",
     "static/media/zerodha2.jpg": "/portfolio/static/media/zerodha2.847176b6cfb0dcf851d5.jpg",
@@ -56,7 +59,9 @@
     "static/media/PngItem_3433294.png": "/portfolio/static/media/PngItem_3433294.60ef1d6629400a061c59.png",
     "static/media/AtharvaBhuseResume.pdf": "/portfolio/static/media/AtharvaBhuseResume.00c2bc94ac35bd4b215e.pdf",
     "static/media/thumb1.png": "/portfolio/static/media/thumb1.485c9dfd18a2e41b2d09.png",
+    "static/media/dashboardApp4.png": "/portfolio/static/media/dashboardApp4.748e97b13d6c7cb2afec.png",
     "static/media/Screenshot (184).png": "/portfolio/static/media/Screenshot (184).27965fce04a365dca2cd.png",
+    "static/media/dashboardApp5.png": "/portfolio/static/media/dashboardApp5.12305516245a2d1e2215.png",
     "static/media/leetcode.png": "/portfolio/static/media/leetcode.73b5137e6712388cbe4f.png",
     "static/media/emoji2.png": "/portfolio/static/media/emoji2.0eaa409c5bc494bcf4c1.png",
     "static/media/Gumela.ttf": "/portfolio/static/media/Gumela.bf98a454247ad9695fde.ttf",
@@ -70,11 +75,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/love.svg": "/portfolio/static/media/love.db5f2c5f77bae45dfa1986fa8b9fc6c7.svg",
     "main.3532c32a.css.map": "/portfolio/static/css/main.3532c32a.css.map",
-    "main.065cbb63.js.map": "/portfolio/static/js/main.065cbb63.js.map",
+    "main.ca041e42.js.map": "/portfolio/static/js/main.ca041e42.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3532c32a.css",
-    "static/js/main.065cbb63.js"
+    "static/js/main.ca041e42.js"
   ]
 }

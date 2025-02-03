@@ -122,7 +122,7 @@ const Portfolio = () => {
           heading={"Ecommerce App(MERN Stack)"}
           desc1={"On the front‑end, I used React to create a dynamic user interface that displays product details, allows users to search and filter products, and provides a smooth checkout process. I also implemented features like user authentication and authorization, so that users can create accounts, sign in, and access their order history. On the back‑end, I used Node.js and Express.js to create a RESTful API that connects to a MongoDB database. This API handles user authentication and authorization, as well as managing product and order data. I also integrated Stripe for payment processing, ensuring that transactions are secure and seamless for users. Overall, building this e‑commerce website using the MERN stack allowed me to gain experience in full‑stack web development, and I am excited to continue building and expanding my skills in this area"}
           desc2={"Technologies used- React, Redux, Redux Thunk, Javascript, HTML, CSS, Axios, Stripe, MongoDB, Mongoose, Express, Node, Restful APIs."}
-          livesite={'http://13.233.195.136:4000/'}
+          livesite={'http://15.207.117.150:4000/'}
           github={'https://github.com/atharvabhuse/ecommerce'}
           click={clickHandler} />
       </div>

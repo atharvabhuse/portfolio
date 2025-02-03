@@ -49,14 +49,14 @@ const Certification = () => {
           heading={"JP Morgan Agile"}
           desc1={""}
           desc2={""}
-          livesite={false}
+          livesite={true}
         />
         <CertificateCard
           image={UdemyAWS}
           heading={"Udemy AWS"}
           desc1={""}
           desc2={""}
-          livesite={false}
+          livesite={true}
         />
         <CertificateCard
           image={UdemyReact}

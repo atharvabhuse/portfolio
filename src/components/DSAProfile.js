@@ -41,7 +41,7 @@ const DSAProfile = () => {
         <div className='portfolio' id='Certification'>
             <div className='portfolioMain-heading'>DSA Profiles</div>
             <div className='certification-row'>
-            <DSAProfileCard image={Leetcode} heading={"Leetcode"} desc1={"300+ Problem solved"} desc2={"3 badges"} livesite={true} />
+            <DSAProfileCard image={Leetcode} heading={"Leetcode"} desc1={"300+ Problem solved"} desc2={"4 badges"} livesite={true} />
             <DSAProfileCard image={HackerRank} heading={"HackerRank"} desc1={"5 star in problem solving"} desc2={""} livesite={true} />
             </div>
             {popup ? <Popup image={image} clickoverlay={clickoverlay} /> : ''}

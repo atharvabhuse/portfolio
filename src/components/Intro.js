@@ -11,7 +11,6 @@ import cup from '../images/PngItem_3433294.png'
 import api from '../images/api.png'
 import FloatingDiv from './FloatingDiv'
 import { AnimatePresence, motion } from 'framer-motion'
-import Particles from 'react-tsparticles'
 import Popup from './Popup'
 import background from '../images/background.svg'
 

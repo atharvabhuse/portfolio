@@ -25,7 +25,20 @@ const CertificateCard = (props) => {
 
                 {/* <div className='portfoliocard-desc'>{props.desc1} <br />{props.desc2}<br />{props.desc3}<br />{props.desc4}</div> */}
 
-                {props.heading=="Udemy React"?<a className='certificatecard-a' href='https://www.udemy.com/certificate/UC-bf94c31c-cb7e-4ede-81a4-227370d36255/'><div className='certificatecard-buttons'>
+                {props.heading=="JP Morgan Agile"?<a className='certificatecard-a' href='https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/5QiaMtZ4k8ngYKn4D_JPMorgan%20Chase%20&%20Co._Hx2wswJiqSFDkMwJx_1716923766564_completion_certificate.pdf'><div className='certificatecard-buttons'>
+                    <FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} />
+                    <p style={{ opacity: props.livesite == false ? '0.5' : '' }}>
+                        {props.heading == "JP Morgan Agile" ? "Credential" : "Image"}
+                    </p>
+                </div></a>
+                :props.heading=="Udemy AWS"?<a className='certificatecard-a' href='https://www.udemy.com/certificate/UC-7dcff45a-d6cb-449f-b98a-57733bd850c7/'><div className='certificatecard-buttons'>
+                    <FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} />
+                    <p style={{ opacity: props.livesite == false ? '0.5' : '' }}>
+                        {props.heading == "Udemy AWS" ? "Credential" : "Image"}
+                    </p>
+                </div></a>
+                :
+                props.heading=="Udemy React"?<a className='certificatecard-a' href='https://www.udemy.com/certificate/UC-bf94c31c-cb7e-4ede-81a4-227370d36255/'><div className='certificatecard-buttons'>
                     <FontAwesomeIcon icon={faSquareArrowUpRight} style={{ color: '#FCA61F', marginTop: '0.2rem', opacity: props.livesite == false ? '0.5' : '' }} />
                     <p style={{ opacity: props.livesite == false ? '0.5' : '' }}>
                         {props.heading == "Udemy React" ? "Credential" : "Image"}

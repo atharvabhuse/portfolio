@@ -6,6 +6,7 @@ import HackerRank from "../images/HackerRankCertificate.png";
 import zerodha1 from "../images/zerodha1.jpg";
 import zerodha2 from "../images/zerodha2.jpg";
 import JPMorganAgile from "../images/JP Morgan agile.png";
+import DaleCarnegie from "../images/DaleCarnegie.png";
 import UdemyAWS from "../images/udemy AWS.jpg";
 import CertificateCard from "./CertificateCard";
 import "./Certification.css";
@@ -44,6 +45,13 @@ const Certification = () => {
     <div className="portfolio" id="Certification">
       <div className="portfolioMain-heading">Certifications</div>
       <div className="certification-row">
+        <CertificateCard
+          image={DaleCarnegie}
+          heading={"Dale Carnegie"}
+          desc1={""}
+          desc2={""}
+          livesite={true}
+        />
         <CertificateCard
           image={JPMorganAgile}
           heading={"JP Morgan Agile"}

@@ -56,7 +56,6 @@ const Intro = () => {
                 <img className="github" src={github} />
               </a>
             </span>
-
             <span>
               <a href="https://www.linkedin.com/in/atharva-bhuse/">
                 <img className="linkedin" src={linkedin} />

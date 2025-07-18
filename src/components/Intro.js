@@ -43,7 +43,7 @@ const Intro = () => {
         >
           <span>Hi! I am</span>
           <span>Atharva Prashant Bhuse</span>
-          <span>Frontend Developer @Polyglots software LLP</span>
+          <span>Frontend Developer @Mintoak</span>
           <span>
             React | React Native | Next | Redux | React Query | Express | Node |
             MongoDB | AWS | DSA | Tech Blogger | F&O Stock market trader

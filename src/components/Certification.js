@@ -47,7 +47,7 @@ const Certification = () => {
       <div className="certification-row">
         <CertificateCard
           image={DaleCarnegie}
-          heading={"Dale Carnegie"}
+          heading={"Dale Carnegie How to handle multiple demands on your time"}
           desc1={""}
           desc2={""}
           livesite={true}

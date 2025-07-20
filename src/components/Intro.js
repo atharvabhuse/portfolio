@@ -43,10 +43,11 @@ const Intro = () => {
         >
           <span>Hi! I am</span>
           <span>Atharva Prashant Bhuse</span>
-          <span>Frontend Developer @Mintoak</span>
+          <span>Software Engineer @ Mintoak</span>
           <span>
-            React | React Native | Next | Redux | React Query | Express | Node |
-            MongoDB | AWS | DSA | Tech Blogger | F&O Stock market trader
+            {/* React | React Native | Next | Redux | React Query | Express | Node |
+            MongoDB | AWS | DSA | Tech Blogger | F&O Stock market trader */}
+            Impact-Driven UI Developer{" "}
           </span>
           {/* <span>Full stack react developer with high level of experience in web designing and development and producting the Quality work.</span> */}
           {/* <span><button className='intro-button'>Resume</button></span> */}

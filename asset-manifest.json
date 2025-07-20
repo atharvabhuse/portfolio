@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7aa3a1a2.css",
-    "main.js": "/portfolio/static/js/main.0163b20a.js",
+    "main.css": "/portfolio/static/css/main.d56ee591.css",
+    "main.js": "/portfolio/static/js/main.5b703fc4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolioIntroAtharva.png": "/portfolio/static/media/portfolioIntroAtharva.5243ff0290ce56fbb473.png",
     "static/media/foodapp1.png": "/portfolio/static/media/foodapp1.7bbb9aeb8a3ada12a687.png",
@@ -75,12 +75,12 @@
     "static/media/bluevector.svg": "/portfolio/static/media/bluevector.a7007f9d9b8c9d5059085b508930e5a5.svg",
     "index.html": "/portfolio/index.html",
     "static/media/love.svg": "/portfolio/static/media/love.db5f2c5f77bae45dfa1986fa8b9fc6c7.svg",
-    "main.7aa3a1a2.css.map": "/portfolio/static/css/main.7aa3a1a2.css.map",
-    "main.0163b20a.js.map": "/portfolio/static/js/main.0163b20a.js.map",
+    "main.d56ee591.css.map": "/portfolio/static/css/main.d56ee591.css.map",
+    "main.5b703fc4.js.map": "/portfolio/static/js/main.5b703fc4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aa3a1a2.css",
-    "static/js/main.0163b20a.js"
+    "static/css/main.d56ee591.css",
+    "static/js/main.5b703fc4.js"
   ]
 }

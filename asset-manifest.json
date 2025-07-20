@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d56ee591.css",
-    "main.js": "/portfolio/static/js/main.5b703fc4.js",
+    "main.js": "/portfolio/static/js/main.d62c8f4e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolioIntroAtharva.png": "/portfolio/static/media/portfolioIntroAtharva.5243ff0290ce56fbb473.png",
     "static/media/foodapp1.png": "/portfolio/static/media/foodapp1.7bbb9aeb8a3ada12a687.png",
@@ -58,7 +58,7 @@
     "static/media/react.png": "/portfolio/static/media/react.ed334fbb6330164064e3.png",
     "static/media/todo.png": "/portfolio/static/media/todo.bce07b424ee6f7f15317.png",
     "static/media/PngItem_3433294.png": "/portfolio/static/media/PngItem_3433294.60ef1d6629400a061c59.png",
-    "static/media/AtharvaBhuseResume.pdf": "/portfolio/static/media/AtharvaBhuseResume.2d85d458536f29116609.pdf",
+    "static/media/AtharvaBhuseResume.pdf": "/portfolio/static/media/AtharvaBhuseResume.72c4d353a836e065eb08.pdf",
     "static/media/thumb1.png": "/portfolio/static/media/thumb1.485c9dfd18a2e41b2d09.png",
     "static/media/dashboardApp4.png": "/portfolio/static/media/dashboardApp4.748e97b13d6c7cb2afec.png",
     "static/media/Screenshot (184).png": "/portfolio/static/media/Screenshot (184).27965fce04a365dca2cd.png",
@@ -76,11 +76,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/love.svg": "/portfolio/static/media/love.db5f2c5f77bae45dfa1986fa8b9fc6c7.svg",
     "main.d56ee591.css.map": "/portfolio/static/css/main.d56ee591.css.map",
-    "main.5b703fc4.js.map": "/portfolio/static/js/main.5b703fc4.js.map",
+    "main.d62c8f4e.js.map": "/portfolio/static/js/main.d62c8f4e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d56ee591.css",
-    "static/js/main.5b703fc4.js"
+    "static/js/main.d62c8f4e.js"
   ]
 }
